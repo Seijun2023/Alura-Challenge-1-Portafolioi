@@ -1,0 +1,193 @@
+/*CSS Reset / Normalize*/
+
+:root{
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+   --cor-de-fundo: #F5F5F5;
+   --cor-de-link: #000;
+   --margin__tudo: 152px;
+}
+
+/* .tudo {
+    padding: 0 var(--margin__tudo);
+} */
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.menu {
+    display: flex;
+    padding: 0 var(--margin__tudo);
+    align-self: center;
+    align-items: center;
+    justify-content: space-between;    
+    
+}
+
+.menu__header {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    
+}
+
+.nav__header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    top: 0;
+    
+}
+
+.menu__list {
+    display: flex;
+    
+}
+
+.menu__list li {
+    margin-left: 32px;
+}
+
+.menu__list__item__contato {
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+/* menu */
+
+.title {
+    padding: 0 var(--margin__tudo);
+}
+
+.title__div {
+    display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    flex-direction: row-reverse;
+}
+
+.title__bio {
+    font-weight: 700;
+    font-size: 52px;
+    color: #464646;
+}
+
+.title__subsection {
+    font-weight: 400;
+    font-size: 22px;
+    color: #464646;
+}
+
+.title__network {
+    display: flex;
+    gap: 32px;
+}
+
+ol, ul,li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+
+
+/*Sección About*/
+
+.about {
+    background-color: #EAF2FD;
+    padding-left: -1%;
+    left: 0;
+    right: 0;
+}
+
+.about__container {
+    padding: 64px var(--margin__tudo);
+    
+}
+
+.skills {
+    padding: 0 var(--margin__tudo);
+}
+
+/*Sección Hobbies*/
+
+.hobbies{
+    padding: 64px var(--margin__tudo);
+}
+
+/* Experiencia Académica*/
+
+.academic{
+    padding: 64px var(--margin__tudo);
+}
+
+/* experiencia*/
+
+.experience{
+    padding: 64px var(--margin__tudo);
+}
+
+/*Contacto*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+
+}
