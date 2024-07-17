@@ -115,26 +115,60 @@ a{
 }
 
 .skills {
+    display: block;
     padding: 0 var(--margin__tudo);
+    text-align: center;
+}
+
+.skills__line {
+    display: flex;
+    justify-content: space-between;
 }
 
 /*Sección Hobbies*/
 
 .hobbies{
-    padding: 64px var(--margin__tudo);
+    display: block;
+    padding: 0 var(--margin__tudo);
+    text-align: center;
+}
+
+.hobbies__line {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* Experiencia Académica*/
 
 .academic{
-    padding: 64px var(--margin__tudo);
+    display: block;
+    padding: 0 var(--margin__tudo);
+    text-align: center;
+}
+
+.academic__courses {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* experiencia*/
 
 .experience{
-    padding: 64px var(--margin__tudo);
+    display: block;
+    padding: 0 var(--margin__tudo);
+    text-align: center;
 }
+
+.experiencie__box {
+    display: flex;
+    flex-direction: row;
+}
+
+
+/* display: flex;
+    align-items: flex-start;
+    padding: 20px;
+    flex-direction: row-reverse; */
 
 /*Contacto*/
 
